@@ -7,3 +7,16 @@
  * 3. Uploadez ce projet sur votre serveur et testez !
  */
 // TODO Votre code ici
+
+$array = $_SERVER;
+
+foreach ($array as $item => $value){
+    echo $item . " : " . $value . "<br>";
+}
+
+/** OU
+
+foreach ($_SERVER as $item => $value) {
+    echo "$item = '$value'\n";
+}
+ **/
